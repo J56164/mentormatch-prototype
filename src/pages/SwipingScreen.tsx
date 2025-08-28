@@ -126,7 +126,14 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
         >
           <div className="relative">
             <div className="h-80 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-              <User size={80} className="text-gray-400" />
+              {currentMentor.image != null ? (
+                <img
+                  src={currentMentor.image}
+                  className="h-80 w-full object-cover"
+                />
+              ) : (
+                <User size={80} className="text-gray-400" />
+              )}
             </div>
             <div className="absolute top-4 left-4">
               <button

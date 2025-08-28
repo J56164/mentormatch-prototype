@@ -39,7 +39,16 @@ export function MatchesScreen({ matches, setCurrentView }) {
                   className="bg-gray-50 rounded-2xl p-4 flex items-center space-x-4"
                 >
                   <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                    <User size={32} className="text-gray-500" />
+                    <div>
+                      {mentor.image != null ? (
+                        <img
+                          src={mentor.image}
+                          className="w-16 h-16 object-cover rounded-full"
+                        />
+                      ) : (
+                        <User size={32} className="text-gray-500" />
+                      )}
+                    </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg text-gray-800">
