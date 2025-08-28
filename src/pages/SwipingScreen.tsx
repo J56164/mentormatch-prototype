@@ -26,11 +26,6 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
         }
         return [...prev, currentMentor];
       });
-
-      // Show match notification
-      setTimeout(() => {
-        alert("🎉 It's a match! You can now start chatting.");
-      }, 300);
     }
 
     // Move to next mentor
