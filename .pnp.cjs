@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.34.0"],\
+          ["@tailwindcss/vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:4.1.12"],\
           ["@types/react", "npm:19.1.12"],\
           ["@types/react-dom", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:19.1.9"],\
           ["@vitejs/plugin-react", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:5.0.2"],\
@@ -40,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["mentormatch-prototype", "workspace:."],\
           ["react", "npm:19.1.1"],\
           ["react-dom", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:19.1.1"],\
+          ["tailwindcss", "npm:4.1.12"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:8.41.0"],\
           ["vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:7.1.3"]\
@@ -314,6 +316,45 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-string-parser", "npm:7.27.1"],\
           ["@babel/helper-validator-identifier", "npm:7.27.1"],\
           ["@babel/types", "npm:7.28.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@emnapi/core", [\
+      ["npm:1.4.5", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@emnapi-core-npm-1.4.5-ec124a1813-10c0.zip/node_modules/@emnapi/core/",\
+        "packageDependencies": [\
+          ["@emnapi/core", "npm:1.4.5"],\
+          ["@emnapi/wasi-threads", "npm:1.0.4"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@emnapi/runtime", [\
+      ["npm:1.4.5", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@emnapi-runtime-npm-1.4.5-3b801be1ae-10c0.zip/node_modules/@emnapi/runtime/",\
+        "packageDependencies": [\
+          ["@emnapi/runtime", "npm:1.4.5"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@emnapi/wasi-threads", [\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@emnapi-wasi-threads-npm-1.0.4-ac6c94b37b-10c0.zip/node_modules/@emnapi/wasi-threads/",\
+        "packageDependencies": [\
+          ["@emnapi/wasi-threads", "npm:1.0.4"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@emnapi-wasi-threads-npm-1.1.0-4dc2c60138-10c0.zip/node_modules/@emnapi/wasi-threads/",\
+        "packageDependencies": [\
+          ["@emnapi/wasi-threads", "npm:1.1.0"],\
+          ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -752,6 +793,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@jridgewell/remapping", [\
+      ["npm:2.3.5", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@jridgewell-remapping-npm-2.3.5-df8dacc063-10c0.zip/node_modules/@jridgewell/remapping/",\
+        "packageDependencies": [\
+          ["@jridgewell/gen-mapping", "npm:0.3.13"],\
+          ["@jridgewell/remapping", "npm:2.3.5"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.30"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@jridgewell/resolve-uri", [\
       ["npm:3.1.2", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@jridgewell-resolve-uri-npm-3.1.2-5bc4245992-10c0.zip/node_modules/@jridgewell/resolve-uri/",\
@@ -777,6 +829,18 @@ const RAW_RUNTIME_STATE =
           ["@jridgewell/resolve-uri", "npm:3.1.2"],\
           ["@jridgewell/sourcemap-codec", "npm:1.5.5"],\
           ["@jridgewell/trace-mapping", "npm:0.3.30"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@napi-rs/wasm-runtime", [\
+      ["npm:0.2.12", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@napi-rs-wasm-runtime-npm-0.2.12-8f0d65e253-10c0.zip/node_modules/@napi-rs/wasm-runtime/",\
+        "packageDependencies": [\
+          ["@emnapi/core", "npm:1.4.5"],\
+          ["@emnapi/runtime", "npm:1.4.5"],\
+          ["@napi-rs/wasm-runtime", "npm:0.2.12"],\
+          ["@tybys/wasm-util", "npm:0.10.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1030,6 +1094,194 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@rollup-rollup-win32-x64-msvc-npm-4.49.0-4e08551e4a/node_modules/@rollup/rollup-win32-x64-msvc/",\
         "packageDependencies": [\
           ["@rollup/rollup-win32-x64-msvc", "npm:4.49.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/node", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@tailwindcss-node-npm-4.1.12-35c5a53c14-10c0.zip/node_modules/@tailwindcss/node/",\
+        "packageDependencies": [\
+          ["@jridgewell/remapping", "npm:2.3.5"],\
+          ["@tailwindcss/node", "npm:4.1.12"],\
+          ["enhanced-resolve", "npm:5.18.3"],\
+          ["jiti", "npm:2.5.1"],\
+          ["lightningcss", "npm:1.30.1"],\
+          ["magic-string", "npm:0.30.18"],\
+          ["source-map-js", "npm:1.2.1"],\
+          ["tailwindcss", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-npm-4.1.12-7de31f0280/node_modules/@tailwindcss/oxide/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-wasm32-wasi", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.1.12"],\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.1.12"],\
+          ["detect-libc", "npm:2.0.4"],\
+          ["tar", "npm:7.4.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-android-arm64", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-android-arm64-npm-4.1.12-8e2126a415/node_modules/@tailwindcss/oxide-android-arm64/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-darwin-arm64", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-arm64-npm-4.1.12-016979fb18/node_modules/@tailwindcss/oxide-darwin-arm64/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-darwin-x64", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-x64-npm-4.1.12-3286c5f115/node_modules/@tailwindcss/oxide-darwin-x64/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-freebsd-x64", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-freebsd-x64-npm-4.1.12-fad48e9993/node_modules/@tailwindcss/oxide-freebsd-x64/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-linux-arm-gnueabihf", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm-gnueabihf-npm-4.1.12-9825c638ab/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-linux-arm64-gnu", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-gnu-npm-4.1.12-e34ede25e7/node_modules/@tailwindcss/oxide-linux-arm64-gnu/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-linux-arm64-musl", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-musl-npm-4.1.12-899e362877/node_modules/@tailwindcss/oxide-linux-arm64-musl/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-linux-x64-gnu", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-gnu-npm-4.1.12-d1f46b8e28/node_modules/@tailwindcss/oxide-linux-x64-gnu/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-linux-x64-musl", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-musl-npm-4.1.12-3c0dfdb6c3/node_modules/@tailwindcss/oxide-linux-x64-musl/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-wasm32-wasi", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-wasm32-wasi-npm-4.1.12-eb141149a5/node_modules/@tailwindcss/oxide-wasm32-wasi/",\
+        "packageDependencies": [\
+          ["@emnapi/core", "npm:1.4.5"],\
+          ["@emnapi/runtime", "npm:1.4.5"],\
+          ["@emnapi/wasi-threads", "npm:1.1.0"],\
+          ["@napi-rs/wasm-runtime", "npm:0.2.12"],\
+          ["@tailwindcss/oxide-wasm32-wasi", "npm:4.1.12"],\
+          ["@tybys/wasm-util", "npm:0.10.0"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-win32-arm64-msvc", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-arm64-msvc-npm-4.1.12-dca908de1b/node_modules/@tailwindcss/oxide-win32-arm64-msvc/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/oxide-win32-x64-msvc", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-x64-msvc-npm-4.1.12-4cac26004f/node_modules/@tailwindcss/oxide-win32-x64-msvc/",\
+        "packageDependencies": [\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/vite", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@tailwindcss-vite-npm-4.1.12-6b99aac384-10c0.zip/node_modules/@tailwindcss/vite/",\
+        "packageDependencies": [\
+          ["@tailwindcss/vite", "npm:4.1.12"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:4.1.12", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-vite-virtual-03e9f4cbbb/8/AppData/Local/Yarn/Berry/cache/@tailwindcss-vite-npm-4.1.12-6b99aac384-10c0.zip/node_modules/@tailwindcss/vite/",\
+        "packageDependencies": [\
+          ["@tailwindcss/node", "npm:4.1.12"],\
+          ["@tailwindcss/oxide", "npm:4.1.12"],\
+          ["@tailwindcss/vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:4.1.12"],\
+          ["@types/vite", null],\
+          ["tailwindcss", "npm:4.1.12"],\
+          ["vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:7.1.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/vite",\
+          "vite"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tybys/wasm-util", [\
+      ["npm:0.10.0", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@tybys-wasm-util-npm-0.10.0-5601bb24f9-10c0.zip/node_modules/@tybys/wasm-util/",\
+        "packageDependencies": [\
+          ["@tybys/wasm-util", "npm:0.10.0"],\
+          ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1700,6 +1952,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["detect-libc", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/detect-libc-npm-2.0.4-e8a2aba8b6-10c0.zip/node_modules/detect-libc/",\
+        "packageDependencies": [\
+          ["detect-libc", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["eastasianwidth", [\
       ["npm:0.2.0", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/eastasianwidth-npm-0.2.0-c37eb16bd1-10c0.zip/node_modules/eastasianwidth/",\
@@ -1740,6 +2001,17 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["enhanced-resolve", [\
+      ["npm:5.18.3", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/enhanced-resolve-npm-5.18.3-37e11179c7-10c0.zip/node_modules/enhanced-resolve/",\
+        "packageDependencies": [\
+          ["enhanced-resolve", "npm:5.18.3"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["tapable", "npm:2.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2392,6 +2664,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["jiti", [\
+      ["npm:2.5.1", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/jiti-npm-2.5.1-6671598471-10c0.zip/node_modules/jiti/",\
+        "packageDependencies": [\
+          ["jiti", "npm:2.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["js-tokens", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
@@ -2477,6 +2758,116 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lightningcss", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/lightningcss-npm-1.30.1-d177e9dceb-10c0.zip/node_modules/lightningcss/",\
+        "packageDependencies": [\
+          ["detect-libc", "npm:2.0.4"],\
+          ["lightningcss", "npm:1.30.1"],\
+          ["lightningcss-darwin-arm64", "npm:1.30.1"],\
+          ["lightningcss-darwin-x64", "npm:1.30.1"],\
+          ["lightningcss-freebsd-x64", "npm:1.30.1"],\
+          ["lightningcss-linux-arm-gnueabihf", "npm:1.30.1"],\
+          ["lightningcss-linux-arm64-gnu", "npm:1.30.1"],\
+          ["lightningcss-linux-arm64-musl", "npm:1.30.1"],\
+          ["lightningcss-linux-x64-gnu", "npm:1.30.1"],\
+          ["lightningcss-linux-x64-musl", "npm:1.30.1"],\
+          ["lightningcss-win32-arm64-msvc", "npm:1.30.1"],\
+          ["lightningcss-win32-x64-msvc", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-darwin-arm64", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-darwin-arm64-npm-1.30.1-4f54e7a15b/node_modules/lightningcss-darwin-arm64/",\
+        "packageDependencies": [\
+          ["lightningcss-darwin-arm64", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-darwin-x64", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-darwin-x64-npm-1.30.1-4f4ea517c0/node_modules/lightningcss-darwin-x64/",\
+        "packageDependencies": [\
+          ["lightningcss-darwin-x64", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-freebsd-x64", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-freebsd-x64-npm-1.30.1-5c53665a55/node_modules/lightningcss-freebsd-x64/",\
+        "packageDependencies": [\
+          ["lightningcss-freebsd-x64", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-linux-arm-gnueabihf", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-linux-arm-gnueabihf-npm-1.30.1-40609a9dda/node_modules/lightningcss-linux-arm-gnueabihf/",\
+        "packageDependencies": [\
+          ["lightningcss-linux-arm-gnueabihf", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-linux-arm64-gnu", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-linux-arm64-gnu-npm-1.30.1-33ddb20b83/node_modules/lightningcss-linux-arm64-gnu/",\
+        "packageDependencies": [\
+          ["lightningcss-linux-arm64-gnu", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-linux-arm64-musl", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-linux-arm64-musl-npm-1.30.1-2cde7c7fe6/node_modules/lightningcss-linux-arm64-musl/",\
+        "packageDependencies": [\
+          ["lightningcss-linux-arm64-musl", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-linux-x64-gnu", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-linux-x64-gnu-npm-1.30.1-db044bac8c/node_modules/lightningcss-linux-x64-gnu/",\
+        "packageDependencies": [\
+          ["lightningcss-linux-x64-gnu", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-linux-x64-musl", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-linux-x64-musl-npm-1.30.1-125a1ccacf/node_modules/lightningcss-linux-x64-musl/",\
+        "packageDependencies": [\
+          ["lightningcss-linux-x64-musl", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-win32-arm64-msvc", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-win32-arm64-msvc-npm-1.30.1-a8606e7a5e/node_modules/lightningcss-win32-arm64-msvc/",\
+        "packageDependencies": [\
+          ["lightningcss-win32-arm64-msvc", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lightningcss-win32-x64-msvc", [\
+      ["npm:1.30.1", {\
+        "packageLocation": "./.yarn/unplugged/lightningcss-win32-x64-msvc-npm-1.30.1-2e0d6b2fcc/node_modules/lightningcss-win32-x64-msvc/",\
+        "packageDependencies": [\
+          ["lightningcss-win32-x64-msvc", "npm:1.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["locate-path", [\
       ["npm:6.0.0", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/locate-path-npm-6.0.0-06a1e4c528-10c0.zip/node_modules/locate-path/",\
@@ -2535,6 +2926,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["magic-string", [\
+      ["npm:0.30.18", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/magic-string-npm-0.30.18-561c76e200-10c0.zip/node_modules/magic-string/",\
+        "packageDependencies": [\
+          ["@jridgewell/sourcemap-codec", "npm:1.5.5"],\
+          ["magic-string", "npm:0.30.18"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["make-fetch-happen", [\
       ["npm:14.0.3", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/make-fetch-happen-npm-14.0.3-23b30e8691-10c0.zip/node_modules/make-fetch-happen/",\
@@ -2560,6 +2961,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.34.0"],\
+          ["@tailwindcss/vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:4.1.12"],\
           ["@types/react", "npm:19.1.12"],\
           ["@types/react-dom", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:19.1.9"],\
           ["@vitejs/plugin-react", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:5.0.2"],\
@@ -2571,6 +2973,7 @@ const RAW_RUNTIME_STATE =
           ["mentormatch-prototype", "workspace:."],\
           ["react", "npm:19.1.1"],\
           ["react-dom", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:19.1.1"],\
+          ["tailwindcss", "npm:4.1.12"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:8.41.0"],\
           ["vite", "virtual:6c3c49960b444afb929950f5ce76e2942e6417989e8d986d0860f25b881f8284a5ecdc419df0be9ab8dbdbda6bd932659ef750c88165a52c663fd8216d1ca433#npm:7.1.3"]\
@@ -3236,6 +3639,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tailwindcss", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/tailwindcss-npm-4.1.12-f62134eba8-10c0.zip/node_modules/tailwindcss/",\
+        "packageDependencies": [\
+          ["tailwindcss", "npm:4.1.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tapable", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/tapable-npm-2.2.3-82f7688a94-10c0.zip/node_modules/tapable/",\
+        "packageDependencies": [\
+          ["tapable", "npm:2.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tar", [\
       ["npm:7.4.3", {\
         "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/tar-npm-7.4.3-1dbbd1ffc3-10c0.zip/node_modules/tar/",\
@@ -3290,6 +3711,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tslib", [\
+      ["npm:2.8.1", {\
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/tslib-npm-2.8.1-66590b21b8-10c0.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
