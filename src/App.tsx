@@ -1,14 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
-import {
-  Heart,
-  X,
-  User,
-  Award,
-  Briefcase,
-  GraduationCap,
-  MessageCircle,
-  ArrowLeft,
-} from "lucide-react";
+import { useState } from "react";
 import { HomeScreen } from "./pages/HomeScreen";
 import { ProfileScreen } from "./pages/ProfileScreen";
 import { SwipingScreen } from "./pages/SwipingScreen";
