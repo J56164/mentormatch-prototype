@@ -18,12 +18,6 @@ function App() {
   const [userType, setUserType] = useState(null);
   const [currentMentorIndex, setCurrentMentorIndex] = useState(0);
   const [matches, setMatches] = useState([]);
-  const [mentorProfile, setMentorProfile] = useState({
-    name: "",
-    title: "",
-    experience: "",
-    expertise: "",
-  });
 
   // Touch/swipe state
   const [isDragging, setIsDragging] = useState(false);
@@ -105,33 +99,6 @@ function App() {
       // Snap back to center
       setDragOffset({ x: 0, y: 0 });
     }
-  };
-
-  const handleProfileInputChange = (field, value) => {
-    setMentorProfile((prev) => ({
-      ...prev,
-      [field]: value,
-    }));
-  };
-
-  const saveMentorProfile = () => {
-    // Validate required fields
-    if (
-      !mentorProfile.name ||
-      !mentorProfile.title ||
-      !mentorProfile.experience ||
-      !mentorProfile.expertise
-    ) {
-      alert("Please fill in all fields");
-      return;
-    }
-
-    // Save profile (in real app, would send to backend)
-    alert("Profile saved successfully! 🎉");
-    console.log("Mentor profile saved:", mentorProfile);
-
-    // Navigate back to home or to a success screen
-    setCurrentView("home");
   };
 
   const SwipingScreen = () => {
@@ -365,14 +332,7 @@ function App() {
   // Render current view
   switch (currentView) {
     case "profile":
-      return (
-        <ProfileScreen
-          setCurrentView={setCurrentView}
-          mentorProfile={mentorProfile}
-          handleProfileInputChange={handleProfileInputChange}
-          saveMentorProfile={saveMentorProfile}
-        />
-      );
+      return <ProfileScreen setCurrentView={setCurrentView} />;
     case "swiping":
       return <SwipingScreen />;
     case "matches":
