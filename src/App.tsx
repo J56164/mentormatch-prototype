@@ -15,7 +15,6 @@ import { ProfileScreen } from "./pages/ProfileScreen";
 
 function App() {
   const [currentView, setCurrentView] = useState("home");
-  const [userType, setUserType] = useState(null);
   const [currentMentorIndex, setCurrentMentorIndex] = useState(0);
   const [matches, setMatches] = useState([]);
 
@@ -27,12 +26,6 @@ function App() {
 
   // Sample mentor data
   const mentors = useMockMentors();
-
-  // Reset mentor index when starting swiping
-  const startSwiping = () => {
-    setCurrentMentorIndex(0);
-    setCurrentView("swiping");
-  };
 
   const handleSwipe = (direction) => {
     const currentMentor = mentors[currentMentorIndex];
@@ -102,6 +95,7 @@ function App() {
   };
 
   const SwipingScreen = () => {
+    setCurrentMentorIndex(0);
     const currentMentor = mentors[currentMentorIndex];
 
     if (!currentMentor) {
@@ -338,13 +332,7 @@ function App() {
     case "matches":
       return <MatchesScreen />;
     default:
-      return (
-        <HomeScreen
-          setUserType={setUserType}
-          setCurrentView={setCurrentView}
-          startSwiping={startSwiping}
-        />
-      );
+      return <HomeScreen setCurrentView={setCurrentView} />;
   }
 }
 
