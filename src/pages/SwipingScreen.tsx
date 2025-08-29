@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 import { useMockMentors } from "../hooks/useMockMentors";
 import { Heart, X, User, Briefcase, ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function SwipingScreen({ matches, setMatches, setCurrentView }) {
+  const { t } = useTranslation();
   // Sample mentor data
   const mentors = useMockMentors();
   const [currentMentorIndex, setCurrentMentorIndex] = useState(0);
@@ -81,16 +83,16 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6 flex items-center justify-center">
         <div className="max-w-md mx-auto bg-white rounded-3xl shadow-2xl p-8 text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            All Done! 🎉
+            {t("swiping.all-done")}
           </h2>
           <p className="text-gray-600 text-lg mb-6">
-            You've reviewed all available mentors.
+            {t("swiping.all-done-description")}
           </p>
           <button
             onClick={() => setCurrentView("matches")}
             className="bg-blue-500 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-600 transition-colors"
           >
-            View Your Matches ({matches.length})
+            {t("swiping.view-matches", { length: matches.length })}
           </button>
         </div>
       </div>

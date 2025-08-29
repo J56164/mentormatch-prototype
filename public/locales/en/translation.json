@@ -1,0 +1,43 @@
+{
+  "home": {
+    "app-name": "MentorMatch",
+    "app-description": "Connect with experienced mentors",
+    "i-am-a": "I am a...",
+    "mentor": "Mentor",
+    "mentor-description": "Share your experience and guide others",
+    "mentee": "Mentee",
+    "mentee-description": "Find guidance from experienced professionals"
+  },
+  "profile": {
+    "title": "Create Your Profile",
+    "full-name": "Full Name",
+    "full-name-description": "Enter your full name",
+    "professional-title": "Professional Title",
+    "professional-title-description": "e.g., Senior Executive, Consultant",
+    "years-expertise": "Years of Experience",
+    "years-expertise-description": "Select experience range",
+    "years-expertise-range": {
+      "20-25": "20-25 years",
+      "25-30": "25-30 years",
+      "30+": "30+ years",
+      "40+": "40+ years"
+    },
+    "areas-expertise": "Areas of Expertise",
+    "areas-expertise-description": "Describe your areas of expertise...",
+    "save": "Save Profile",
+    "error-incomplete-form": "Please fill in all fields",
+    "success": "Profile saved successfully! 🎉"
+  },
+  "swiping": {
+    "all-done": "All Done! 🎉",
+    "all-done-description": "You've reviewed all available mentors.",
+    "view-matches": "View Your Matches ({{length}})"
+  },
+  "matches": {
+    "title": "Your Matches ({{length}})",
+    "no-matches": "No matches yet",
+    "no-matches-description": "Keep swiping to find mentors!",
+    "no-matches-find-mentors": "Start Swiping",
+    "find-mentors": "Find More Mentors"
+  }
+}

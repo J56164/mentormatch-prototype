@@ -1,6 +1,8 @@
 import { Heart, User, MessageCircle, ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function MatchesScreen({ matches, setCurrentView }) {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
       <div className="max-w-md mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden">
@@ -12,7 +14,7 @@ export function MatchesScreen({ matches, setCurrentView }) {
             <ArrowLeft size={24} />
           </button>
           <h1 className="text-2xl font-bold text-white">
-            Your Matches ({matches.length})
+            {t("matches.title", { length: matches.length })}
           </h1>
         </div>
 
@@ -20,15 +22,15 @@ export function MatchesScreen({ matches, setCurrentView }) {
           {matches.length === 0 ? (
             <div className="text-center py-12">
               <Heart size={60} className="mx-auto text-gray-400 mb-4" />
-              <p className="text-gray-600 text-lg">No matches yet</p>
+              <p className="text-gray-600 text-lg">{t("matches.no-matches")}</p>
               <p className="text-gray-500 mb-6">
-                Keep swiping to find mentors!
+                {t("matches.no-matches-description")}
               </p>
               <button
                 onClick={() => setCurrentView("swiping")}
                 className="bg-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-600"
               >
-                Start Swiping
+                {t("matches.no-matches-find-mentors")}
               </button>
             </div>
           ) : (
@@ -67,7 +69,7 @@ export function MatchesScreen({ matches, setCurrentView }) {
                   onClick={() => setCurrentView("swiping")}
                   className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-600"
                 >
-                  Find More Mentors
+                  {t("matches.find-mentors")}
                 </button>
               </div>
             </div>
