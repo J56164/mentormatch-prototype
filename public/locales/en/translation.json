@@ -1,4 +1,7 @@
 {
+  "common": {
+    "language-code": "EN"
+  },
   "home": {
     "app-name": "MentorMatch",
     "app-description": "Connect with experienced mentors",

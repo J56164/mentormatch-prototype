@@ -1,4 +1,7 @@
 {
+  "common": {
+    "language-code": "TH"
+  },
   "home": {
     "app-name": "MentorMatch",
     "app-description": "เชื่อมต่อกับที่ปรึกษาผู้มีประสบการณ์",
