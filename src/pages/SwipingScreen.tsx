@@ -165,7 +165,7 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
                 {currentMentor.name}
               </h2>
               <span className="text-lg text-gray-600">
-                {currentMentor.age} years
+                {t("swiping.age", { age: currentMentor.age })}
               </span>
             </div>
 
@@ -183,7 +183,7 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
 
             <div className="mb-4">
               <h3 className="font-semibold text-gray-800 mb-2 text-lg">
-                Specialties:
+                {t("swiping.specialties")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {currentMentor.specialties.map((specialty, index) => (
@@ -221,7 +221,10 @@ export function SwipingScreen({ matches, setMatches, setCurrentView }) {
 
         <div className="text-center mt-6">
           <p className="text-gray-600 text-lg">
-            {currentMentorIndex + 1} of {mentors.length} mentors
+            {t("swiping.progress", {
+              count: currentMentorIndex + 1,
+              length: mentors.length,
+            })}
           </p>
           <div className="flex justify-center mt-2 space-x-2">
             {mentors.map((_, index) => (

@@ -29,6 +29,9 @@
     "success": "Profile saved successfully! 🎉"
   },
   "swiping": {
+    "age": "{{age}} years",
+    "specialties": "Specialties:",
+    "progress": "{{count}} จาก {{length}} พี่เลี้ยง",
     "all-done": "All Done! 🎉",
     "all-done-description": "You've reviewed all available mentors.",
     "view-matches": "View Your Matches ({{length}})"
