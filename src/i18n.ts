@@ -8,6 +8,7 @@ i18next
   // .use(I18nextBrowserLanguageDetector)
   .use(I18NextHttpBackend)
   .init({
-    fallbackLng: "th",
+    lng: "th",
+    fallbackLng: "en",
     saveMissing: true,
   });
